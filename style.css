@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Roboto";
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-color: #183249;
+  padding: 2%;
+  margin-bottom: 8px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+button:active {
+  background-color: aquamarine;
+  transition: ease 1s;
+  transform: scale(1, 1);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.5;
+  flex: 1;
+}
+
+.rodape{
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #0f2454;
+  padding: 5px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: azure;
+  padding: 15px 0;
+}
+
+.rodape__lista {
+  padding: 17px 0;
+  border-bottom: 1px solid rgba(44, 159, 185, 0.63);
+  gap: 0 1rem;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0rem 0 0.75rem 0;
+}
+
+.lista__link a{
+  text-decoration: none;
+  font-size: 16px;
+  color:white;
+  margin-left: 1rem;
+}
+
+.rodape__texto {
+  font-size: 14px;
+  padding: 0 0 0 0;  
+  color:white;  
+}
